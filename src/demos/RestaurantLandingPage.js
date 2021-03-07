@@ -26,22 +26,21 @@ export default () => {
       <Hero
         heading={
           <>
-            Delicious & Affordable{" "}
-            <HighlightedText>Meals Near You.</HighlightedText>
+            Work & Out <HighlightedText>Fat to Fit.</HighlightedText>
           </>
         }
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        imageSrc="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+        description="Work hard and play hard"
+        imageSrc="/assets/images/weight loss-carousel.jpg"
         imageCss={imageCss}
         imageDecoratorBlob={true}
-        primaryButtonText="Order Now"
-        watchVideoButtonText="Meet The Chefs"
+        primaryButtonText=" Butn Fat Now"
+        watchVideoButtonText="play"
       />
       <MainFeature
-        subheading={<Subheading>Established Since 2014</Subheading>}
+        subheading={<Subheading>We are Since 2014</Subheading>}
         heading={
           <>
-            We've been serving for
+            We've been working for
             <wbr /> <HighlightedText>over 5 years.</HighlightedText>
           </>
         }
@@ -69,7 +68,7 @@ export default () => {
       <TabGrid
         heading={
           <>
-            Checkout our <HighlightedText>menu.</HighlightedText>
+            Checkout our <HighlightedText>Service.</HighlightedText>
           </>
         }
       />
