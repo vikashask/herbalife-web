@@ -49,7 +49,7 @@ const CardHoverOverlay = styled(motion.div)`
   background-color: rgba(255, 255, 255, 0.5);
   ${tw`absolute inset-0 flex justify-center items-center`}
 `;
-const CardButton = tw(PrimaryButtonBase)`text-sm`;
+// const CardButton = tw(PrimaryButtonBase)`text-sm`;
 
 const CardReview = tw.div`font-medium text-xs text-gray-600`;
 

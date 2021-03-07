@@ -125,7 +125,7 @@ export default () => {
           </Column> */}
           <SubscribeNewsletterColumn>
             <SubscribeNewsletterContainer>
-              <ColumnHeading>Subscribe to our Newsletter</ColumnHeading>
+              <ColumnHeading>Subscribe to Us</ColumnHeading>
               <SubscribeText>
                 We deliver high quality blog posts written by professionals
                 weekly. And we promise no spam.
