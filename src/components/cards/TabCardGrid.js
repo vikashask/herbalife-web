@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { SectionHeading } from "components/misc/Headings.js";
-import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
+// import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as StarIcon } from "images/star-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-7.svg";
@@ -76,7 +76,7 @@ export default ({
         content: "Tomato Salad & Carrot",
         // price: "$5.99",
         rating: "5.0",
-        reviews: "87",
+        // reviews: "87",
         url: "#",
       },
       {
@@ -85,8 +85,8 @@ export default ({
         title: "Macaroni",
         content: "Cheese Pizza",
         // price: "$2.99",
-        rating: "4.8",
-        reviews: "32",
+        rating: "5.0",
+        // reviews: "32",
         url: "#",
       },
       {
@@ -96,7 +96,7 @@ export default ({
         content: "Hamburger & Fries",
         // price: "$7.99",
         rating: "4.9",
-        reviews: "89",
+        // reviews: "89",
         url: "#",
       },
       {
@@ -106,7 +106,7 @@ export default ({
         content: "Crispy Soyabeans",
         // price: "$8.99",
         rating: "4.6",
-        reviews: "12",
+        // reviews: "12",
         url: "#",
       },
       {
@@ -116,7 +116,7 @@ export default ({
         content: "Roasted Chicken & Egg",
         // price: "$7.99",
         rating: "4.2",
-        reviews: "19",
+        // reviews: "19",
         url: "#",
       },
       {
@@ -126,7 +126,7 @@ export default ({
         content: "Deepfried Chicken",
         // price: "$2.99",
         rating: "5.0",
-        reviews: "61",
+        // reviews: "61",
         url: "#",
       },
       {
@@ -136,7 +136,7 @@ export default ({
         content: "Mexican Chilli",
         // price: "$3.99",
         rating: "4.2",
-        reviews: "95",
+        // reviews: "95",
         url: "#",
       },
       {
@@ -146,7 +146,7 @@ export default ({
         content: "Chilli Crispy Nachos",
         // price: "$3.99",
         rating: "3.9",
-        reviews: "26",
+        // reviews: "26",
         url: "#",
       },
     ],
@@ -260,7 +260,7 @@ const getRandomCards = () => {
       content: "Chicken Main Course",
       // price: "$5.99",
       rating: "5.0",
-      reviews: "87",
+      // reviews: "87",
       url: "#",
     },
     {
@@ -270,7 +270,7 @@ const getRandomCards = () => {
       content: "Fried Mexican Beef",
       // price: "$3.99",
       rating: "4.5",
-      reviews: "34",
+      // reviews: "34",
       url: "#",
     },
     {
@@ -280,7 +280,7 @@ const getRandomCards = () => {
       content: "Chilli Crispy Nachos",
       // price: "$3.99",
       rating: "3.9",
-      reviews: "26",
+      // reviews: "26",
       url: "#",
     },
     {
@@ -290,7 +290,7 @@ const getRandomCards = () => {
       content: "Mexican Chilli",
       // price: "$3.99",
       rating: "4.2",
-      reviews: "95",
+      // reviews: "95",
       url: "#",
     },
     {
@@ -300,7 +300,7 @@ const getRandomCards = () => {
       content: "Deepfried Chicken",
       // price: "$2.99",
       rating: "5.0",
-      reviews: "61",
+      // reviews: "61",
       url: "#",
     },
     {
@@ -310,7 +310,7 @@ const getRandomCards = () => {
       content: "Hamburger & Fries",
       // price: "$7.99",
       rating: "4.9",
-      reviews: "89",
+      // reviews: "89",
       url: "#",
     },
     {
@@ -320,7 +320,7 @@ const getRandomCards = () => {
       content: "Crispy Soyabeans",
       // price: "$8.99",
       rating: "4.6",
-      reviews: "12",
+      // reviews: "12",
       url: "#",
     },
     {
@@ -330,7 +330,7 @@ const getRandomCards = () => {
       content: "Roasted Chicken & Egg",
       // price: "$7.99",
       rating: "4.2",
-      reviews: "19",
+      // reviews: "19",
       url: "#",
     },
   ];
